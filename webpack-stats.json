@@ -3,23 +3,23 @@
    "assets": {
       "css/completed.css": {
          "name": "css/completed.css",
-         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\css\\completed.css",
-         "integrity": "sha256-Uol73Z893DJir2KsTyuFbV1zu38HAsanm2bkeFEUzvA= sha384-vEc+qWM84GW4BMICVOJ0VfnYgQniOZaRDOEdsRjBG3t9c60q9pfnZ97zqUBb9BFe sha512-GL2NkQ4VXfF2L0xgWqQ/hn/XQgY6poZdrrwpjgds0WAl4xqt7QDGrvfhbswrGIPmolQ62QZFhRx3oJZ6pGfYOw=="
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo\\static\\files\\css\\completed.css",
+         "integrity": "sha256-TuKFxzaTdpi6zITxVk63kN3pscJ54zZ2fZj0LI17CIE= sha384-ZtW7OG1p+LCjn46wSj9j411BUCCs6jCjIWyvEvSb9fyJVO5V8U9Nd5F6n+TprPJs sha512-8RUnw8qoPykXZfRNcbq04pvrTs6hdxQV9CmS5mpukMI25uOQLWVjZFt11xlJSpC8LNhU3A1ACzUgwK3pbqAk9w=="
       },
       "css/index.css": {
          "name": "css/index.css",
-         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\css\\index.css",
-         "integrity": "sha256-UW8gS7UcW68jdQqoVswKmzn+c2rF8akhsIE1u4pcHys= sha384-C3ud5BM+hWVZNYAPSm9ML2Eyv8x+fr/uFM0OfsmEHyAkyTgssf1X/smFJ9LBZ8yj sha512-PrY3vprRQ1OA4HbyJ894qReHNg5fUz6gBsrPKrcA4HjvlgcaDsUDxfIw0RmDnIafx6YMr9+nJhYFwrbLSLv7EQ=="
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo\\static\\files\\css\\index.css",
+         "integrity": "sha256-3ZFNz94MGXZ1oI/kA0aFVmwWYfwvVN9iaeYB8xGdK4Y= sha384-iLmLejD9V46n8H+SVviMlH8D9Y2/N+nlsda7Zwrc6rbBKu6QwF4mAQxaLCPOZSRR sha512-gOORV7q9RImkH10ZfLLg91kvEs5Lt4CPi1jAF930wnr55xhSfmNMr3mQuyykJERqc/MOsYV5cybRoghC0L/1Sw=="
       },
       "js/completed.js": {
          "name": "js/completed.js",
-         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\js\\completed.js",
-         "integrity": "sha256-VG/JU7mHxoM+5Ec1/Hr4t5AKFEcRscRpBw2qSChOfKI= sha384-LOtYQiyiLTLigPAkGNai3QgVTZQIw+yytXL1Liyg1NbIFhyLIIPJ71hRlBgFqIS+ sha512-U9f7Whadko065F5DU557EXAwXCIXASf7sLq0i0n4zpaqixWwGbeCAvOFklAFduZ9dDqasp4ESPZtrAbSV7+IvQ=="
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo\\static\\files\\js\\completed.js",
+         "integrity": "sha256-qLrqDcAmDGNMvaaXihZG/bXjNbPvhhKZMVsPHbw4aDs= sha384-4ElMlt32IqPBJOHVgDkal0uroGQMlA+S1qxcrWo4JqOeSgAUwGpaDyFzAalOATLk sha512-pQooUt+yIBwBfIsR4s1W0Q9EAlEwo5p7qM1DknREBhPcPnLlahLw38Bo4FGLJG+Icva7hQMQZKyLPf5VArSIpA=="
       },
       "js/index.js": {
          "name": "js/index.js",
-         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\js\\index.js",
-         "integrity": "sha256-yKfiYJiYsyZkxUPtyaEBJETdX9v5c84OkrdArqNV6XI= sha384-tfPJrJAn+fi77J+WTTMp3gENf+p9ZMuAHatLrUoOxiitdnqDX16CJJK3CKaMfjTa sha512-dlpILm8UCXoq/16L40NepDqGKdy5vM2vutOJAQ2CXK0Vq6SRbhaAAcVJRzVnZIUiec/Cl1UpxLA/ZFI1rOQRVA=="
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo\\static\\files\\js\\index.js",
+         "integrity": "sha256-cQd8KpcTY15VAAGJI370dlZQVVGlqQQZR3CWOclyuGE= sha384-ZU35t3dIdtk+otI1prKclwf58b6ERQfVBokzTuFg36wDshOlGb94SgeLXaIu4LNU sha512-Hd1pRPqztWgp30bCFB+SSE1wzRuGge3uMpv6b9PdUqe1dzjWKsNoJjIBXT4OFFB8JcVKg+SGRNp/ef555GddsA=="
       }
    },
    "chunks": {
@@ -32,6 +32,6 @@
          "js/index.js"
       ]
    },
-   "startTime": 1699266554919,
-   "endTime": 1699266558138
+   "startTime": 1699351761761,
+   "endTime": 1699351764846
 }

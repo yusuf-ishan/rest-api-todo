@@ -1,0 +1,37 @@
+{
+   "status": "done",
+   "assets": {
+      "css/completed.css": {
+         "name": "css/completed.css",
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\css\\completed.css",
+         "integrity": "sha256-Uol73Z893DJir2KsTyuFbV1zu38HAsanm2bkeFEUzvA= sha384-vEc+qWM84GW4BMICVOJ0VfnYgQniOZaRDOEdsRjBG3t9c60q9pfnZ97zqUBb9BFe sha512-GL2NkQ4VXfF2L0xgWqQ/hn/XQgY6poZdrrwpjgds0WAl4xqt7QDGrvfhbswrGIPmolQ62QZFhRx3oJZ6pGfYOw=="
+      },
+      "css/index.css": {
+         "name": "css/index.css",
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\css\\index.css",
+         "integrity": "sha256-UW8gS7UcW68jdQqoVswKmzn+c2rF8akhsIE1u4pcHys= sha384-C3ud5BM+hWVZNYAPSm9ML2Eyv8x+fr/uFM0OfsmEHyAkyTgssf1X/smFJ9LBZ8yj sha512-PrY3vprRQ1OA4HbyJ894qReHNg5fUz6gBsrPKrcA4HjvlgcaDsUDxfIw0RmDnIafx6YMr9+nJhYFwrbLSLv7EQ=="
+      },
+      "js/completed.js": {
+         "name": "js/completed.js",
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\js\\completed.js",
+         "integrity": "sha256-VG/JU7mHxoM+5Ec1/Hr4t5AKFEcRscRpBw2qSChOfKI= sha384-LOtYQiyiLTLigPAkGNai3QgVTZQIw+yytXL1Liyg1NbIFhyLIIPJ71hRlBgFqIS+ sha512-U9f7Whadko065F5DU557EXAwXCIXASf7sLq0i0n4zpaqixWwGbeCAvOFklAFduZ9dDqasp4ESPZtrAbSV7+IvQ=="
+      },
+      "js/index.js": {
+         "name": "js/index.js",
+         "path": "C:\\Users\\yusuf\\Desktop\\rest_api_react_todo2\\rest_api_react_todo\\static\\files\\js\\index.js",
+         "integrity": "sha256-yKfiYJiYsyZkxUPtyaEBJETdX9v5c84OkrdArqNV6XI= sha384-tfPJrJAn+fi77J+WTTMp3gENf+p9ZMuAHatLrUoOxiitdnqDX16CJJK3CKaMfjTa sha512-dlpILm8UCXoq/16L40NepDqGKdy5vM2vutOJAQ2CXK0Vq6SRbhaAAcVJRzVnZIUiec/Cl1UpxLA/ZFI1rOQRVA=="
+      }
+   },
+   "chunks": {
+      "completed": [
+         "css/completed.css",
+         "js/completed.js"
+      ],
+      "index": [
+         "css/index.css",
+         "js/index.js"
+      ]
+   },
+   "startTime": 1699266554919,
+   "endTime": 1699266558138
+}

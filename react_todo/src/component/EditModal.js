@@ -1,12 +1,14 @@
 import React, { useEffect, useState, useContext } from "react";
 import FetchContext from "../Contexts/FetchContext";
+import { signal, effect } from "@preact/signals-core";
+
 
 const EditModal = ({ onEditModalOn, id }) =>{
 
     const { FetchDataHandler } = useContext(FetchContext)
     const [individualItem, setIndividualData] =  useState({});
 
-    useEffect( ()=>{
+    useEffecteffect( ()=>{
         fetch(`http://127.0.0.1:8000/task_details/${id}/`).then((res)=>{
             return res.json()
         }).then((data)=>{
@@ -24,6 +26,7 @@ const EditModal = ({ onEditModalOn, id }) =>{
         }))
     }
     
+
     const OnSubmitEditItemhandler = async (event) =>{
       event.preventDefault();
 

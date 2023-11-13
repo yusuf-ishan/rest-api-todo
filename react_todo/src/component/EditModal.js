@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import FetchContext from "../Contexts/FetchContext";
-import { signal, effect } from "@preact/signals-core";
+import { useSignal, useSignalEffect } from "@preact/signals-react";
 
 
 const EditModal = ({ onEditModalOn, id }) =>{
@@ -8,7 +8,9 @@ const EditModal = ({ onEditModalOn, id }) =>{
     const { FetchDataHandler } = useContext(FetchContext)
     const [individualItem, setIndividualData] =  useState({});
 
-    useEffecteffect( ()=>{
+    const singleItem = useSignal();
+
+    useEffect( ()=>{
         fetch(`http://127.0.0.1:8000/task_details/${id}/`).then((res)=>{
             return res.json()
         }).then((data)=>{
@@ -25,6 +27,10 @@ const EditModal = ({ onEditModalOn, id }) =>{
         [name]: value,
         }))
     }
+
+    // const formDatas = new FormData(event.target);
+    // const titleData = formDatas.get('title');
+    // const descriptionData = formDatas.get('description');
     
 
     const OnSubmitEditItemhandler = async (event) =>{
@@ -40,7 +46,11 @@ const EditModal = ({ onEditModalOn, id }) =>{
               'Content-Type': 'application/json; charset=UTF-8',
               'X-CSRFToken': csrf_data.csrfToken,
             },
-            body: JSON.stringify(individualItem),
+            body: JSON.stringify({
+              // title: titleData.toString(),
+              // description: descriptionData.toString()
+              individualItem
+            }),
           });
 
           FetchDataHandler()
